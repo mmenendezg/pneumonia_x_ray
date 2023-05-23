@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+.venv/
+
+# IPython NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+/data/external
+/data/interim
+/data/processed
+/data/raw
+
+# exclude external models from source control
+/src/external/

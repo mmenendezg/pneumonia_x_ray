@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pneumonia-xray"
+version = "1.0"
+description = "Image classification model for Pneumonial X-Ray images"
+authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pneumonia_xray"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
