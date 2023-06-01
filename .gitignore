@@ -15,3 +15,6 @@ __pycache__/
 
 # exclude external models from source control
 /src/external/
+
+# MacOS files
+*DS_Store
