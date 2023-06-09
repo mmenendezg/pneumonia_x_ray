@@ -24,6 +24,7 @@ evaluate = "^0.4.0"
 pylance = "^0.4.20"
 pylint = "^2.17.4"
 tensorflow-datasets = "^4.9.2"
+ipykernel = "^6.23.1"
 
 
 [build-system]
