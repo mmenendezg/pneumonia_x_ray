@@ -8,25 +8,23 @@ readme = "README.md"
 packages = [{include = "pneumonia_xray"}]
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
-tensorflow-macos = "2.13.0rc1"
-tensorflow-metal = "^1.0.0"
+python = ">=3.10,<3.11"
+tensorflow-macos = "^2.12.0"
+tensorflow-metal = "^1.0.1"
 flake8 = "^6.0.0"
 black = "^23.3.0"
 matplotlib = "^3.7.1"
 pandas = "^2.0.2"
 polars = "^0.18.2"
 seaborn = "^0.12.2"
-transformers = "^4.30.0"
+transformers = "^4.30.2"
 accelerate = "^0.20.3"
 datasets = "^2.12.0"
 evaluate = "^0.4.0"
-pylance = "^0.4.20"
+jupyterlab = "^4.0.2"
+pylance = "^0.4.21"
 pylint = "^2.17.4"
-tensorflow-datasets = "^4.9.2"
-ipykernel = "^6.23.1"
-ipywidgets = "^8.0.6"
-beakerx = "^2.3.13"
+ipykernel = "^6.23.2"
 
 
 [build-system]
